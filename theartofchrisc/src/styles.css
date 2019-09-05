@@ -1,0 +1,55 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+    font-family: 'openSansSemi';
+    src: url('../src/assets/fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url('../src/assets/fonts/AvenirLTStd-Book.woff');
+}
+
+* {
+    font-family: 'avenir';
+}
+
+.navbar {
+    z-index: 9999999;
+    width: 100%;
+    padding-bottom: 0px;
+    /* background: transparent !important; */
+  }
+  
+  .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar-nav > li {
+    color: #FEFEFE !important;
+    display: inline-block;
+    float:none;
+  }
+  
+  .nav-link {
+    color: rgba(254, 254, 254, .7) !important;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid transparent;
+    transition: 400ms ease;
+  }
+  
+  .nav-link:hover {
+    color: #fefefe !important;
+    /* border-bottom: 3px solid rgb(235, 59, 90); */
+    
+    transform: translateY(-10px);
+    transition: 400ms ease;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
