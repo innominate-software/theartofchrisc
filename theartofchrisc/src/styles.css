@@ -1,4 +1,5 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 @font-face {
     font-family: 'openSansSemi';
@@ -16,7 +17,7 @@
 }
 
 .navbar {
-    z-index: 9999999;
+    z-index: 33;
     width: 100%;
     padding-bottom: 0px;
     margin-bottom: 60px
@@ -73,3 +74,49 @@
   .video-row {
     margin-bottom: 50px;
   }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-click {
+    cursor: pointer;
+  }
+
+  .video-click-title {
+    opacity: 0;
+    position: absolute;
+    letter-spacing: 4px;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+    transition: 400ms;
+    transition: 400ms;
+  }
+
+  .video-click:hover .video-click-title {
+    opacity: 1;
+    position: absolute;
+    letter-spacing: 4px;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+    transition: 400ms;
+  }
+
+  .mat-dialog-container {
+    background: rgba(0, 0, 0, 0.6);
+        box-shadow: 0 11px 15px -7px rgba(0,0,0,0), 0 24px 38px 3px rgba(0,0,0,0), 0 9px 46px 8px rgba(0,0,0,0);
+}
