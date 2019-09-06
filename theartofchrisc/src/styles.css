@@ -91,6 +91,7 @@
 
   .video-click {
     cursor: pointer;
+    margin-bottom: 20px;
   }
 
   .video-click-title {
