@@ -59,10 +59,17 @@
   .page-title {
     text-align: center;
     letter-spacing: 3px;
+    margin-bottom: 70px;
   }
 
   .video-title {
     text-align: left;
     letter-spacing: 3px;
     border-bottom: 2px solid #fefefe;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+
+  .video-row {
+    margin-bottom: 50px;
   }
